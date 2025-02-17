@@ -19,6 +19,7 @@ a {
 
 body {
     padding-top: 60px;
+    font-family: Hevetica,sans-serif;
 }
 
 
@@ -48,6 +49,31 @@ body {
 
 .navbar__links a {
     color: #1A1A1A;
+}
+
+/** HERO section */
+.hero {
+    height: 600px;
+    background: white url('../images/landing.jpg') no-repeat center bottom  / cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hero > div {
+    width: 60%;
+    text-align: center;
+}
+
+
+.hero__title {
+    font-size: 3rem;
+}
+
+.hero__description {
+    font-size: 2rem;
 }
 
 /** --------------------------- FOOTER ----------------------- */
