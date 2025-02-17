@@ -7,21 +7,47 @@ White: #FFF
 
 */
 
+* {
+    box-sizing: border-box;
+}
+
 /** tags selectors */
 
 a {
-
+    text-decoration: none;
 }
+
+body {
+    padding-top: 60px;
+}
+
 
 /** los selectores de clase respetando en lo que pueda la estrctura HTML */
 
 /** ---------------- NAVBAR ---------------------------------- */
 .navbar {
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 1rem;
+    position: fixed;
+    top: 0px;
+    width: 100%;
 }
 
-.navbar li {
-    
+.navbar__logo {
+    width: 200px;
+}
+
+.navbar__links {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar__links a {
+    color: #1A1A1A;
 }
 
 /** --------------------------- FOOTER ----------------------- */
