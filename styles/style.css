@@ -6,3 +6,25 @@ Green: #00B172
 White: #FFF
 
 */
+
+/** tags selectors */
+
+a {
+
+}
+
+/** los selectores de clase respetando en lo que pueda la estrctura HTML */
+
+/** ---------------- NAVBAR ---------------------------------- */
+.navbar {
+
+}
+
+.navbar li {
+    
+}
+
+/** --------------------------- FOOTER ----------------------- */
+.footer {
+    
+}
