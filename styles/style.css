@@ -53,7 +53,7 @@ body {
 
 /** HERO section */
 .hero {
-    height: 600px;
+    height: 60vh;
     background: black url('../images/landing.jpg') no-repeat center bottom  / cover;
     color: white;
     display: flex;
@@ -154,6 +154,18 @@ body {
 
 }
 
+/** MEDIA QUERY */
 
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 500px) {
+    .spotify-icon {
+        display: none;
+    }
+}
 
 
